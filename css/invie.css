@@ -117,3 +117,30 @@ button
   border: none;
   padding: 7px;
 }
+footer
+{
+  background: #1F313C;
+}
+
+.contacto img
+{
+  display: block;
+}
+.contacto strong
+{
+  display: block;
+}
+.contacto a
+{
+  color: white;
+  text-decoration: none;
+}
+
+.formulario input
+{
+  display: block;
+}
+.formulario label
+{
+  border-bottom: 20px;
+}
