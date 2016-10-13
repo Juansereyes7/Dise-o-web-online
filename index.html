@@ -47,7 +47,7 @@
       </article>
       <!-- guitarras (2) -->
       <article class="guitarra espaciado">
-        <img class="contenedor-guitarras-b"src="images/invie-classic.png" width="350" alt="Guitarra Inve Classic" />
+        <img class="contenedor-guitarras-b "src="images/invie-classic.png" width="350" alt="Guitarra Inve Classic" />
         <h3 class="title-b classic">Invie Classic</h3>
         <ol>
           <li>Estilo Vintage</li>
@@ -64,10 +64,39 @@
           <a href="mailto:contacto@invie.com"><strong>Email</strong><span>contacto@invie.com</span></a>
       </div>
       <form class="formulario" action="index.html" method="post">
+        <div class="col1">
         <label for="nombre">Nombre</label>
         <input type="text" placeholder="¿Cómo te llamas?" id="nombre"/>
         <label for="email">Email</label>
         <input type="email" placeholder="¿Cómo es tu Email?" id="email"/>
+        <div class="genero">
+          <label for="name">Hombre
+            <input type="radio" name="name" value="Hombre">
+          </label>
+          <label for="name">Mujer
+            <input type="radio" name="name" value="Mujer">
+          </label>
+        </div>
+        <div class="intereses">
+          <label for="cotizacion">
+            <input type="checkbox" name="name" value="cotizacion" id="cotizacion"> Cotización
+          </label>
+          <label for="comentarios">
+            <input type="checkbox" name="name" value="comentarios" id="comentarios"> Comentarios
+          </label>
+          <label for="reclamos">
+            <input type="checkbox" name="name" value="reclamos" id="reclamos"> Reclamos
+          </label>
+          <label for="otros">
+            <input type="checkbox" name="name" value="otros" id="otros"> Otros
+          </label>
+        </div>
+        </div>
+        <div class="col2">
+          <label for="Comentarios">Comentarios</label>
+          <textarea id="comentarios" name="comentarios" rows="8" cols="40"></textarea>
+          <input type="submit" name="name" value="Enviar" class="boton">
+        </div>
       </form>
       </div>
     </footer>
