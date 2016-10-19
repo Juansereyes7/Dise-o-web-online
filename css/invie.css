@@ -128,7 +128,9 @@ footer
   background: #1F313C;
   padding-bottom: 20px;
 }
-
+.intereses {
+  font-size: 14px;
+}
 .contacto a
 {
   color: white;
@@ -141,6 +143,7 @@ footer
   display: flex;
   justify-content: space-between;
 }
+
 .contacto
 {
   display: flex;
@@ -158,6 +161,7 @@ footer
 {
   display: flex;
   flex-direction: column;
+  margin: 8px;
 }
 .col1
 {
@@ -229,6 +233,7 @@ table,th,td
   /*guitarras */
   .guitarras{
     text-align: center;
+    margin: 5px;
   }
   .contenedor-guitarras-a{
     float: none;
