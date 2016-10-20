@@ -252,4 +252,16 @@ table,th,td
     padding: 0;
   }
   /*guitarras */
+  /*footer*/
+  .col1, .col2{
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .contacto{
+    margin-left: 10px;
+  }
+}
+@@media screen and (max-width: 500px) {
+
+
 }
